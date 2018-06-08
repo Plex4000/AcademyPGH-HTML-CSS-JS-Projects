@@ -1,0 +1,247 @@
+
+
+body
+{
+	font-size:       62.5%;
+	font-family:     'lucida grande', arial, tahoma, sans-serif;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+
+	/* 
+		TODO: 
+		1. Change the color of the background to black: 
+			#000000
+		2. Set the margin of the body to: 
+			0
+		3. Set the padding of the body to: 
+			0
+
+	*/
+}
+
+#container
+{
+	padding-top:20px;
+	position:        relative;
+	background-color:  #333;
+	width: 683px;
+	margin: 0 auto;
+	/* 
+		TODO:
+		1. Change the width of the container div to: 
+			683px
+		2. Center the tag by adding this value to the margin: 
+			0 auto
+	*/
+}
+
+#header
+{
+	margin:          0 auto;
+	width:           640px;
+	height:          250px;
+	background:      transparent url('header.jpg') top left no-repeat;
+	/* 
+		TODO:
+		1. Change the background of the heading div to use the header.jpg image by copying the style below:
+			background:      transparent url('header.jpg') top left no-repeat;
+	 */
+	
+}
+
+.headtitle
+{
+	position:        relative;
+	font-family:     Times;
+	font-size:		 30px;
+	color:           #FFF;
+	top:             210px;
+	left:            12px;
+}
+
+/* 
+	TODO: 
+	1. Add a class selector for the "headtitle" class, and copy these types styles into it:
+		position:        relative;
+		font-family:     Times;
+		color:           #FFF;
+		top:             210px;
+		left:            12px;
+	2. Within the same headtitle class selector, change the font size to: 
+		30px
+*/
+
+#menu
+{
+	margin:          0 20px;
+	height:          29px;
+	padding:         5px 0;
+}
+
+#menu ul
+{
+	margin:          0;
+	padding:         7px;
+
+	height:          29px;
+}
+
+#menu ul li
+{
+	list-style:      none;
+	display:         inline;
+}
+
+/* 
+	TODO:
+	1. Remove the some of the default styling added to anchor tags. Replace the id selector, "#oldmenuidselector" with:
+		#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
+*/
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
+{
+	color:           #767676;	
+
+	padding:         10px 7px 10px 7px;
+	font-size:       1em;
+
+	font-family:     'lucida grande', arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
+}
+
+
+
+#menu ul li a:hover
+{
+	background-color: #6A7919;
+	color: #FDFDFD;
+	/* 
+		TODO:
+		1. Change the background color to: 
+			#6A7919
+		2. Change the font color to: 
+			#FDFDFD
+	 */
+}
+
+
+/* 
+	TODO:
+	1. Add a id selector for the id "content", in the id selector copy these styles into it:
+		min-height:      390px;
+		width:           640px;
+		margin:          0 auto;
+		background-color:#FDFDFD;
+ */
+
+#content
+{
+	min-height:      390px;
+	width:           640px;
+	margin:          0 auto;
+	background-color:#FDFDFD;
+}
+
+#insidecontent
+{
+	float:           left;
+	padding-left:    25px;
+	padding-right:    25px;
+	width:           auto;
+}
+
+#insidecontent p
+{
+	margin:          0;
+	color:           #767676;
+	font-family:     Tahoma;
+	font-size:       1.2em;
+	line-height:     170%;
+}
+
+
+
+/* 
+	TODO: 
+	1. Add an element selector for an h1 tag, in the h1 selector copy these styles into it:
+			margin:          0;
+			font-weight:     normal;
+			color:           #6A7919;
+			font-size:       2.5em;
+			font-family:Times;
+	2. Add an element selector for a h2 tag, in the h2 selector copy these styles into it;
+			margin:          0;
+			display:         inline;
+			position:        relative;
+			top:             -1.5em;
+			left:            2em;
+			font-size:       1.8em;
+			font-weight:     normal;
+			color:           #94c258;
+	3. Add an element selector for a h3 tag, in the h3 selector copy these styles into it:
+			margin:          0;
+			font-size:       1.5em;
+			font-weight:     normal;
+			color:           #94C258;
+*/
+
+h1
+{
+	margin:          0;
+	font-weight:     normal;
+	color:           #6A7919;
+	font-size:       2.5em;
+	font-family:Times;
+}
+
+h2
+{
+	margin:          0;
+	display:         inline;
+	position:        relative;
+	top:             -1.5em;
+	left:            2em;
+	font-size:       1.8em;
+	font-weight:     normal;
+	color:           #94c258;
+}
+
+h3
+{
+	margin:          0;
+	font-size:       1.5em;
+	font-weight:     normal;
+	color:           #94C258;
+}
+
+#footer
+{
+	margin:          0 auto;
+	width:			 641px;
+	height:			 39px;
+	/* 
+		TODO: 
+		1. Change the width and height of the footer
+			The width should be: 
+				641px
+			The height should be: 
+				39px
+	 */
+
+}
+
+#footer span
+{
+	display:         block;
+	position:        relative;
+	font-family:    Tahoma;
+	font-size:       1.2em;
+	color: 			 #767676;
+	padding:         10px;
+	/* 
+		TODO: 
+		1. Change the font color to: 
+			#767676 
+	*/
+}
